@@ -1,0 +1,52 @@
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image-fluid{
+    width: 100%;
+    border-radius: 10px;
+  }
+.content{
+    display: flex;
+}
+.carousel{
+    size: 640px;
+    margin-bottom: 20px;
+}
+.paragraph{
+    background-color: blue;
+}
+.review-container{
+    background-color: bisque;
+}
+.review-pictures{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+.color-context{
+    background-color: blue;
+}
+a {
+    color: #777;
+    text-decoration: none;
+}
+.logos{
+margin-bottom: 30px;
+}
+.review-container{
+    background-color:#083434;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.review{
+    color: white;
+    margin-top: 20px;
+}
+.reviewer-name{
+    color: white;
+}
+section{
+    padding: 7 rem;
+}
