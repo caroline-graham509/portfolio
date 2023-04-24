@@ -2,9 +2,9 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.image-fluid{
+.img-fluid{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
   }
 .content{
     display: flex;
@@ -16,13 +16,10 @@ body{
 .paragraph{
     background-color: blue;
 }
-.review-container{
-    background-color: bisque;
-}
 .review-pictures{
-    height: 70px;
-    width: 70px;
-    border-radius: 40px;
+    height: 99px;
+    width: 100px;
+    border-radius: 70px;
 }
 .color-context{
     background-color: blue;
@@ -33,6 +30,7 @@ a {
 }
 .logos{
 margin-bottom: 30px;
+margin-top: 30px;
 }
 .review-container{
     background-color:#083434;
@@ -49,4 +47,44 @@ margin-bottom: 30px;
 }
 .section{
     padding: 7 rem 0;
+}
+.custom-navmenu{
+    background-color: #f0ecfc;
+    ;
+}
+.custom-navmenu .custom-menu li {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.p-4{
+    background-color: #f0ecfc;
+}
+.navbar-dark{
+    background-color: transparent;
+}
+.title{
+    padding-right: 20px;
+}
+.iframe{
+    height: 100%;
+    width: 300px;
+    border:0;
+}
+button{
+    background-color: white;
+    border-radius: 13px;
+    border: 1 solid black;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    align-items: flex-start;
+}
+.service-list{
+    margin-top: 30px;
 }
